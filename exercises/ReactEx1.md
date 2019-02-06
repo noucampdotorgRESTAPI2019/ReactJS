@@ -17,10 +17,10 @@ Let's simplify the default code given to us.
 	<!doctype html>
 	<html lang="en">
 	<head>
-		<title>React App</title>
+	  <title>React App</title>
 	</head>
 	<body>
-		<div id="root"></div>
+	  <div id="root"></div>
 	</body>
 	</html>
 
@@ -58,11 +58,11 @@ Let's simplify the default code given to us.
 	import ReactDOM from 'react-dom'
 
 	class HelloWorld extends React.Component {
-		render() {
-			return (
-				<h1>Hello World!</h1>
-			);
-		}
+	  render() {
+	    return (
+	      <h1>Hello World!</h1>
+	    );
+	  }
 	}
 	export default HelloWorld;
 	```
