@@ -94,9 +94,9 @@ You will create a new Message component and render it.
 
 1.	Next modify the Message component again to display the current time the message was posted:
 
-		![](../images/Message2.png)
-		
-		Use info [here](https:/www.w3schools.com/jsref/jsref_obj_date.asp) to guide you.
+	![](../images/Message2.png)
+	
+	Use info [here](https:/www.w3schools.com/jsref/jsref_obj_date.asp) to guide you.
 
 
 1.	Modify the code in `index.js` to see how multiple Message components may be added
