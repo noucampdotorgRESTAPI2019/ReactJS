@@ -57,3 +57,32 @@ Check your `ReactJS` folder. You should have some new files in it.
 
 1.	Make sure you use the React console tab to view the component you just created.  Again note how a change to state causes the component to be re-rendered.
 
+
+## Part 3 - Timer Component
+	
+1.	Create a new component called `Timer` in your React project `src` folder.  
+
+    The component will display a countdown from a given value to 0 (zero).
+
+1.  Modify ``src/index.js`` so that your the `<Timer>` component is rendered using this code:
+
+	```javascript
+	import React from 'react';
+	import ReactDOM from 'react-dom';
+	import Timer from './Timer.js';
+
+	ReactDOM.render(<Timer value={10} />, document.getElementById('root'));
+	```
+
+    Note how this countdown starting value will be 10.
+
+1.  Implement your solution to begin the countdown from 30 by default if no `value` property is given.  For example:
+
+    ```javascript
+    ...
+
+    ReactDOM.render(<Timer />, document.getElementById('root'));
+    ```
+
+1.	Test it works using the link [http://localhost:3000/](http://localhost:3000/)
+
