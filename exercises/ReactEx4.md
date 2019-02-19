@@ -56,15 +56,15 @@ $ git status
 
 1.	Modify `src/index.js` so that your the `<AutoTimer>` component is rendered using this code:
 
-		```javascript
-		import React from 'react';
-		import ReactDOM from 'react-dom';
-		import AutoTimer from './AutoTimer.js';
+	```javascript
+	import React from 'react';
+	import ReactDOM from 'react-dom';
+	import AutoTimer from './AutoTimer.js';
 
-		ReactDOM.render(<AutoTimer />, document.getElementById('root'));
-		```
-		
-		Test it works using the link http://localhost:3000/
+	ReactDOM.render(<AutoTimer />, document.getElementById('root'));
+	```
+	
+	Test it works using the link http://localhost:3000/
 
 1.	Now modify the component to use two of the _Component Lifecycle_ methods
 
