@@ -68,9 +68,9 @@ $ git status
 
 1.	Now modify the component to use two of the _Component Lifecycle_ methods
 
-		Use `componentDidMount()` to start the timer and store returned ID value in a class variable `this.timerID`
-
-		Use `componentWillUnmount()` to clear the timer (use `clearInterval()`)
+	Use `componentDidMount()` to start the timer and store returned ID value in a class variable `this.timerID`
+	
+	Use `componentWillUnmount()` to clear the timer (use `clearInterval()`)
 
 
 ## Part 5 - Switch Component
@@ -79,15 +79,15 @@ $ git status
 
 1.	Modify `src/index.js` so that your the `<Switch>` component is rendered using this
 
-		```javascript
-		import React from 'react';
-		import ReactDOM from 'react-dom';
-		import Switch from './Switch.js';
+	```javascript
+	import React from 'react';
+	import ReactDOM from 'react-dom';
+	import Switch from './Switch.js';
 
-		ReactDOM.render(<Switch />, document.getElementById('root'));
-		```
+	ReactDOM.render(<Switch />, document.getElementById('root'));
+	```
 		
-		Test it works using the link http://localhost:3000/
+	Test it works using the link http://localhost:3000/
 
 1.	Modify the component to use a ternary operator to render the state of the switch
 
