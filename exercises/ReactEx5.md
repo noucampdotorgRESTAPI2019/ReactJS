@@ -79,11 +79,11 @@ In this exercise we'll revisit the `<ClubsV2>` component to request club data ev
 
 	```javascript
 	componentDidMount() {    
-		var timer = setInterval( () => {
-										fetch('http://localhost:5000/clubs.json')
-										.then((data) => data.json())
-										.then((data) => this.setState({clubs: data.clubs}))
-										},5000);
+	var timer = setInterval( () => {
+	                                fetch('http://localhost:5000/clubs.json')
+	                                 .then((data) => data.json())
+	                                 .then((data) => this.setState({clubs: data.clubs}))
+	                               },5000);
 	}
 	```
 
