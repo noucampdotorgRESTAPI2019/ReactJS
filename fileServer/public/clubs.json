@@ -1,0 +1,20 @@
+{  
+   "clubs":[  
+      {  
+         "name":"Manchester United",
+         "stadium":"Old Trafford"
+      },
+      {  
+         "name":"Liverpool",
+         "stadium":"Anfield"
+      },
+      {  
+         "name":"Arsenal",
+         "stadium":"Emirates"
+      },
+      {  
+         "name":"Manchester City",
+         "stadium":"Ethidad"
+      }
+   ]
+}

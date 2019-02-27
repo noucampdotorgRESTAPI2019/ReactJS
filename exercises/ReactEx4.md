@@ -1,4 +1,4 @@
-# React.js Exercise 4 – React Event Handling & Lifecyle Events
+# React.js Exercise 4 – React Event Handling & Lifecycle Events
 
 > Complete ALL the exercises in this section. Ask thomas.devine@lyit.ie for help or post an *Issue* on your GitHub repository.
 
