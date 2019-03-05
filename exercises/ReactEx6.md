@@ -12,6 +12,8 @@ $ git status
 
 ```
 
+> In a previous module we implemented a Chat App using jQuery and Node.js Express.  See [here](https://media.heanet.ie/page/2d9df49a25ae7b0f01f13cd0ecc6aa7c).  In this exercise we'll implement it as a React Component.
+
 ## Part 1 - Chat Server Setup
 
 This simple ChatServer is used to get messages and post new messages for our ReactJS fetches.  
