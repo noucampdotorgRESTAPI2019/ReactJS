@@ -73,3 +73,22 @@ This simple ChatServer is used to get messages and post new messages for our Rea
 
     ![](../images/ChatApp2.png)
 
+
+## Part 4 - Some Updates
+
+1.  Use the Chat server to record the names of those users currently using the ChatApp and use the ChatApp to display them as show here:
+
+    ![](../images/ChatApp3.png)
+
+    When recording users use the unique values input in the _Name_ textbox.
+
+1.  When a user sends a message display the time of the message beside the user name as shown here:
+
+    ![](../images/ChatApp4.png)
+
+    Get the time with this code:
+
+    ```javascript
+    var time = new Date().toLocaleTimeString();
+    ```
+
