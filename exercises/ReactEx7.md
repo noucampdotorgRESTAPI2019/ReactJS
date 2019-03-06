@@ -82,7 +82,7 @@ This is how our D3 component will look:
         }
     }
 
-    export default D3Chart;
+    export default D3BarChart;
     ```
 
 1.  Finally, render the component ``<D3BarChart>`` in your ``src/index.js`` file.
