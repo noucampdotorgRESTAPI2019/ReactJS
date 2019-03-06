@@ -22,4 +22,4 @@ class D3BarChart extends React.Component {
     }
 }
 
-export default D3Chart;
+export default D3BarChart;
